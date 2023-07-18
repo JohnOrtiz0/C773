@@ -1,0 +1,197 @@
+/*  HEADER*/
+
+.main-image {
+  background-image: url("images/doggo.jpg");
+  min-height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+
+.top-nav {
+  overflow: hidden;
+  background-color: #676767;
+  opacity: 0.75;
+  border-radius: 10px;
+}
+
+.top-nav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.top-nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#highlight {
+  background-color: #ddd;
+  color: black;
+}
+
+.logo {
+  border-radius: 5px;
+  height: 70px;
+  width: 150;
+}
+
+/* CONTENT */
+
+.title-container {
+  background-color: #676767;
+  height: 150px;
+  width: 1000px;
+  margin: auto;
+  border-radius: 10px;
+  opacity: 0.85;
+}
+
+.title {
+  font-family: cursive;
+  margin: auto;
+  text-align: center;
+  color: #BDBDBD;
+  padding: 30px;
+}
+
+.paragraph-container1 {
+  font-size: 20px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  margin: 70px;
+  line-height: 2;
+}
+
+.paragraph-container2 {
+  font-size: 20px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  float: right;
+  max-width: 800px;
+  line-height: 2;
+  margin: 50px;
+}
+
+.paragraph-container3 {
+  font-size: 20px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  float: left;
+  max-width: 800px;
+  line-height: 2;
+  margin: 50px;
+}
+
+.paragraph-container4 {
+  font-size: 20px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  float: right;
+  max-width: 800px;
+  line-height: 2;
+  margin: 50px;
+}
+
+.button:hover {
+  background-color: #BDBDBD;
+  color:#003B6D;
+}
+
+.button {
+  height: 400px;
+  width: 400px;
+  border-radius: 10px;
+  font-size: 50px;
+  margin: 50px;
+  background-color: #003B6D;
+  color: #BDBDBD;
+}
+
+.back-to-top {
+  text-align: center;
+  margin: auto;
+  font-size: 25px;
+}
+
+.footer-content {
+  margin: 30px;
+}
+
+
+.content-images {
+  height: 600px;
+  width: 500px;
+  border-radius: 10px;
+  margin: 50px;
+}
+
+.contact-image {
+  width: 650px;
+  height: 800px;
+  float: left;
+  border-radius: 10px;
+  margin: 50px;
+}
+
+.form-container {
+  background-color:#003B6D;
+  border-radius: 10px;
+  margin: 50px;
+  width: 650px;
+  height: 800px;
+  float: right;
+}
+
+.form-container h2 {
+  color: #BDBDBD;
+  text-align: center;
+  margin: 50px;
+}
+
+.form-container h3 {
+  color: #BDBDBD;
+  margin: 50px;
+}
+
+.contact-form {
+margin: auto;
+width: 600px;
+text-align: center;
+border-color: #BDBDBD;
+border-radius: 10px;
+}
+
+label {
+  color: #BDBDBD;
+}
+
+input {
+  margin: 3px;
+  border-radius: 10px;
+  color: black;
+  text-align: center;
+  height: 30px;
+  width: 300px;
+}
+
+input:focus {
+  border-color: black;
+}
+.submit {
+  font-size: 20px;
+  margin: 20px;
+  background-color: #BDBDBD;
+  color: black;
+}
+
